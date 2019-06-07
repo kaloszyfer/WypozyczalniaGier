@@ -16,7 +16,7 @@ namespace WypozyczalniaGier.Data
         private void _Init()
         {
             TableActions = new List<Database.Structure.Tables.Actions>();
-            TableInventory = new List<Actions>();
+            TableInventory = new List<Inventory>();
             TablePlatforms = new List<Platforms>();
             TableProducts = new List<Products>();
             TableRoles = new List<Roles>();
@@ -26,7 +26,7 @@ namespace WypozyczalniaGier.Data
         }
 
         public List<Database.Structure.Tables.Actions> TableActions { get; set; }
-        public List<Actions> TableInventory { get; set; }
+        public List<Inventory> TableInventory { get; set; }
         public List<Platforms> TablePlatforms { get; set; }
         public List<Products> TableProducts { get; set; }
         public List<Roles> TableRoles { get; set; }
